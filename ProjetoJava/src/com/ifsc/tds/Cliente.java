@@ -1,5 +1,5 @@
 package com.ifsc.tds;
 
-public class Pessoa {
+public class Cliente {
 
 }

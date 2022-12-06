@@ -5,6 +5,9 @@ public class Uc {
 	private int ucld;
 	private int leituraAnterior;
 	private int leituraAtual;
+	Cliente cliente = new Cliente();
+	//Endereco endereco = new Endereco();
+	
 	
 	public Uc() {}
 
@@ -38,9 +41,16 @@ public class Uc {
 		texto = "-------------------------"
 				+ "\n UCLD: " + getUcld()
 				+ "\n Leitura Anterior: " + getLeituraAnterior()
-				+ "";
+				+ "\n Leitura Atual: " + getLeituraAtual();
 		
 		return texto;
 	}
 	
+	public int faturar(int leitura) {
+		return 0;
+	}
+	
+	public int pegarConsumo() {
+		return 0;
+	}
 }

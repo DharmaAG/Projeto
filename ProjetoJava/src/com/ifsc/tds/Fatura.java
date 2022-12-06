@@ -1,7 +1,6 @@
 package com.ifsc.tds;
-//ooop
+
 public class Fatura {
-	
 	
 	private int faturaId;
 	private int mesAno;
@@ -44,6 +43,24 @@ public class Fatura {
 		this.pago = pago;
 	}
 
+	public double calcularValorFatura() {
+		double resultado = 0; //criei esta variavel apenas para retornar algo e nao apresentar erro
+		return resultado;
+	}
 	
+	public String toString() {
+		String texto = "";
+		
+		texto = "-------------------------"
+				+ "\n ID Fatura: " + getFaturaId()
+				+ "\n Mês/Ano: " + getMesAno()
+				+ "\n Consumo: " + getConsumo()
+		        + "\n Pago: " + isPago();
+		
+		return texto;
+	}
 	
+	public void imprimirFatura() {
+		//arrumar este método colocando o vetor
+	}
 }
