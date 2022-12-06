@@ -6,7 +6,7 @@ public class Uc {
 	private int leituraAnterior;
 	private int leituraAtual;
 	
-	public void Uc() {}
+	public Uc() {}
 
 	public int getUcld() {
 		return ucld;
