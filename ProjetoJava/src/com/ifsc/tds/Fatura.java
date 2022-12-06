@@ -6,7 +6,7 @@ public class Fatura {
 	private int faturaId;
 	private int mesAno;
 	private int consumo;
-	private boolean pago;
+	private boolean pago; 
 	
 	Uc unidadeConsumidora = new Uc();
 	
