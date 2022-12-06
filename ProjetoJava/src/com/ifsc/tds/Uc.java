@@ -32,6 +32,15 @@ public class Uc {
 		this.leituraAtual = leituraAtual;
 	}
 
-	
+	public String toString() {
+		String texto = "";
+		
+		texto = "-------------------------"
+				+ "\n UCLD: " + getUcld()
+				+ "\n Leitura Anterior: " + getLeituraAnterior()
+				+ "";
+		
+		return texto;
+	}
 	
 }

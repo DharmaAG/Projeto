@@ -1,6 +1,5 @@
 package com.ifsc.tds;
-
-//popipoo
+//oo
 public class Fatura {
 	
 	
